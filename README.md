@@ -66,19 +66,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## make a copy of the .env.example file that Laravel includes by default and name the copy
 
-cp .env.example .env
-
-## Add the following content to the .env file
-
-DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=laraveluser
-DB_PASSWORD=your_mysql_password
-
-## Finally, run the following command in the project directory to start the Docker containers 
-sudo docker-compose up –build -d
 
