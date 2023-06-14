@@ -1,0 +1,43 @@
+# Ignore vendor directory (managed by Composer)
+/vendor
+
+# Ignore node_modules directory (managed by npm or Yarn)
+/node_modules
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore user-specific editor configuration files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore server-specific files and directories
+Homestead.yaml
+Homestead.json
+/.vagrant
+/.idea
+
+# Ignore compiled application assets
+/public/css
+/public/js
+/public/mix-manifest.json
+/public/web.config
+
+# Ignore logs and other temporary files
+/storage/*.log
+/storage/app/*.log
+/storage/framework/cache/*.php
+/storage/framework/cache/data/*.php
+/storage/framework/sessions/*.php
+/storage/framework/testing/*.php
+/storage/framework/views/*.php
+/storage/logs/*.log
+
+# Ignore compiled PHP files
+/vendor/*.php
+/vendor/**/*.php
+
+mysql_data/mysql.sock 
